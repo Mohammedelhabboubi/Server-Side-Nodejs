@@ -1,0 +1,5 @@
+{
+    "vim.textwidth": 250,
+    "editor.formatOnSave": true,
+    "editor.wordWrapColumn": 250
+}

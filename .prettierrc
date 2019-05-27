@@ -1,8 +1,25 @@
 {
- "semi": true,
+  "semi": true,
+  "overrides": [
+    {
+      "files": "*.html",
+      "options": {
+        "semi": false,
+        "parser": "html"
+      }
+    },
+    {
+      "files": ".prettierrc",
+      "options": { "parser": "json" }
+    },
+    {
+      "files": ".eslintrc",
+      "options": { "parser": "json" }
+    }
+  ],
   "singleQuote": true,
   "useTabs": false,
-  "printWidth" :200,
+  "printWidth": 200,
   "tabWidth": 2,
   "trailingComma": "none",
   "jsxBracketSameLine": false,
